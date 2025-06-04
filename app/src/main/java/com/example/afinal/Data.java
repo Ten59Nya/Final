@@ -1,11 +1,8 @@
 package com.example.afinal;
 
 import android.content.Context;
-import android.content.res.AssetManager;
 import android.util.Log;
-
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -90,5 +87,9 @@ public class Data {
             return random.nextInt(endNum);
         }
         return 0;
+    }
+
+    static  public List<Word> getWordList() {
+        return wordList;
     }
 }

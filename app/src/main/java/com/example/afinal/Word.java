@@ -19,9 +19,14 @@ public class Word {
         this.errorNum = errorNum;
     }
 
-    public int getMastered(){
-        return mastered;
+    public int getErrorNum() {
+        return errorNum;
     }
+
+    public void setMastered(int mastered) {
+        this.mastered = mastered;
+    }
+
     public String getWord(){
         return  word;
     }
@@ -33,6 +38,9 @@ public class Word {
     }
     public int getShowNum() {
         return errorNum;
+    }
+
+    public void setShowNum(int wrongCount) {
     }
 }
 

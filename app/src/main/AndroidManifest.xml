@@ -12,15 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final"
         tools:targetApi="31">
+        
         <activity
-            android:name=".ReciteActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ReciteActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".WrongActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
